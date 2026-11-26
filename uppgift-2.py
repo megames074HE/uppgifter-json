@@ -15,7 +15,6 @@ for player in range(3):
     highscore_guesses = highscores['scores'][player]['guesses']
     print(f"spelare {highscore_name} med {highscore_guesses} gissningar")
 
-
 name = input("\nVad heter du: ")
 
 while True:
